@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Demo Site- HOME</title>
+	<link rel="stylesheet" href="style.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="keywords" content="Horse Drill Team, Idaho, Indian Outlaw Posse, Idaho Posse Team, Idaho Horses, Horses, 
+	Outlaw Posse, Riding, Horseback Riding, Horse Team, Horse Riding Team, Idaho Horses, Larina Hagan, Indian Outlaw,
+	Rodeo, Rodeo Team, Horse Drill, Horse Pattern, Sierra Potter, Katelyn Burgoyne, Indian Outlaw Horse Team, Team, Indian Outlaw Drill Team, 
+	Indian Outlaw Posse Idaho, Indian Outlaw, Outlaw Posse, Indian Posse, Indian Outlaw Posse Team">
+    
+	<meta name="author" content="Lindsay Neher">
+
+	<link rel="icon" href="https://cdn.freelogovectors.net/wp-content/uploads/2018/03/horse-head-black-and-white-vectors-005.png">
+</head>
+
+<body>
+
+
+
+<!---Navigation-->
+
+<div class="headerbox">
+
+	<img src="logo2.png" align="top-left" height="130px" width="130px">
+
+
+	<h1 class="h1head">Insert team name here</h1>
+
+
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+
+</div>
+
+
+
+
+<!--Body-->
+
+<div class="bodybox">
+	<h1 class="h1head2">  Welcome! </h1>
+
+
+	<h4 class="h4index"> Our Team: </h4>
+	<p>((Insert description of team and important information here)) Lorem Ipsum lorem ipsum calor en le lerim orl atta ke lorem ipssa
+<br>  lorem lorem ippa wh ehh Ak issa pe lorem karu iika i quen lorem ipsium ippa hur aa ipdjp q jklnklsd kl djipwq jpiqwd pojdw pdwqj
+	</P>
+
+
+<!--Filler Image for page-->
+
+<div class="img1">
+
+
+
+<!--Modal Image Calender-->
+
+	<img id="myImg" src="fillercalender.jpg" alt="2020 (name) Calender" width="340px" height="300">
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+	
+</div>
+	
+	
+	
+<!--Events List, Regular list code doesnt work-->
+
+<div class="evnts">	
+
+	<h3 class="h3evnt"><strong> ANNOUNCEMENTS: </strong></h3>
+		<p class="p1"> - Events (date) </p>
+			<br>
+		<p class="p1"> - Events (date) </p>
+			<br>
+		<p class="p1"> - Events (date) </p>
+</div>
+
+
+</div>
+
+
+
+
+<!--Java for calender modal-->
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+</body>
+
+
+<footer>
+
+<!--Copyright Info-->
+
+<div class="footerbox">
+
+	Insert Team Name &#169; <b> ALL RIGHTS RESERVED </b>
+	
+</div>
+
+</footer>	
+
+
+</html>

@@ -1,0 +1,363 @@
+
+/*Page Main CSS*/
+
+	body{
+		background-color: #3CAEA3;
+		background-image: url("webbg.png");
+		background-repeat: no repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+
+
+/*H1 Div Classes*/
+
+
+	.h1head{
+		font-size: 40px;
+		color: #ffa000;
+		margin: 0px;
+		padding: 0px;
+		font-family: Courier New, fantasy;
+		text-align: center;
+	}
+
+
+	.h1con{
+		font-family: Courier New, Times New Roman;
+		color: #ffa000;
+	}
+
+
+
+
+	.h1head2{
+		font-size: 80px;
+		color:  #ac101d;
+		margin: 0px;
+		padding: 0px;
+		font-family: Candara, Times New Roman, Arial;
+		text-align: center;
+	}
+
+
+
+
+/*H3 Div Classes*/
+
+	.h3evnt{
+		font-size: 35px;
+		color: #63abaa;
+	}
+
+
+	.h3ab{ 
+		color: #63abaa;
+		text-align: center;
+	}
+
+
+
+/*H4 Div Classes*/
+
+
+	.h4index{
+		font-size: 24px;
+		color:#7f86ce;
+		text-align: left;
+		padding: 1%;
+		font-family: Times New Roman;
+	}
+
+
+	.h4con{
+		color:#63abaa;
+	}
+
+	.h4con2{
+		color: #7f86ce;
+	}
+
+	.h4ab{
+		font-size: 24px;
+		color:#7f86ce;
+		text-align: center;
+		padding: 1%;
+		font-family: Courier New, Times New Roman;
+	}
+
+
+/*P Div Classes*/
+
+	.p1{
+		font-family: Times New Roman;
+		Color: black;
+	}	
+
+	.pcon{
+		font-style: bold;
+	}
+
+
+
+/*Div Containers*/
+
+
+	.contact{
+		text-align: left;
+		padding: 2%;
+	}
+
+
+
+	.img1{
+		float: right;
+		padding: 3%;
+		margin-top: 3%;
+	}
+
+
+	.evnts{
+		float: left;
+		color: black;
+		padding: 3%;
+		font-size: 18px;
+		font-family: Courier New, Times New Roman;
+	}
+
+
+	.headerbox{
+		padding: 1%;
+		background-color: transparent;
+		text-align: center;
+		margin-top: 2%;
+		overflow: none;
+	}
+
+
+	.bodybox{
+		padding: 2.3%;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+		width: 80%;
+		overflow: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		color: black;
+	}
+
+
+	.bodyboxcon{
+		padding: 2.3%;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+		width: 80%;
+		overflow: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		color: black;
+	}
+
+
+	.bodyboxab{
+		padding: 2.3%;
+		background-color: white;
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+		width: 80%;
+		overflow: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		color: black;
+	}
+
+
+	.abimgfloat{
+		float: right;
+		background-color: transparent;
+		padding: 3.5%;
+		margin-right: 1%;
+	}
+
+
+	.abimgfloat1{
+		float: right;
+		padding: 0%;
+		background-color: transparent;
+		margin-right: 4%;
+	}
+
+
+	.abtxt1{
+		float: left;
+		padding: 2%;
+	}
+
+
+	.footerbox{
+		padding: 1%;
+		background-color: #E7E7E7;
+		margin-right: auto;
+		margin-left: auto;
+		height: auto;
+		width: 80%;
+		overflow: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+		color: black;
+	}
+
+
+/*Nav Decor*/
+
+	ul {
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: transparent;
+		color: white;
+	}
+
+	li {
+		float: center;
+		color: white;
+	}
+
+	li a {
+		display: block;  
+		color: white;
+		padding: 1px;
+	}
+
+		li a:hover {
+			color: #ffb997;
+	}
+
+/*Modal Image Calender CSS*/
+
+
+	#myImg {
+		border-radius: 5px;
+		cursor: pointer;
+		transition: 0.3s;
+	}
+
+	#myImg:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+
+
+	.modal {
+		display: none; /* Hidden by default */
+		position: fixed; /* Stay in place */
+		z-index: 1; /* Sit on top */
+		padding-top: 100px; /* Location of the box */
+		left: 0;
+		top: 0;
+		width: 100%; /* Full width */
+		height: 100%; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+		background-color: rgb(0,0,0); /* Fallback color */
+		background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	}
+
+
+/* Modal Content (image) */
+
+	.modal-content {
+		margin: auto;
+		display: block;
+		width: 80%;
+		max-width: 700px;
+	}
+
+/* Caption of Modal Image */
+
+	#caption {
+		margin: auto;
+		display: block;
+		width: 80%;
+		max-width: 700px;
+		text-align: center;
+		color: #ccc;
+		padding: 10px 0;
+		height: 150px;
+	}
+
+
+/* Add Animation */
+
+		.modal-content, #caption {  
+		-webkit-animation-name: zoom;
+		-webkit-animation-duration: 0.6s;
+		animation-name: zoom;
+		animation-duration: 0.6s;
+	}
+
+	
+	@-webkit-keyframes zoom {
+	from {-webkit-transform:scale(0)} 
+	to {-webkit-transform:scale(1)}
+	}
+
+
+	@keyframes zoom {
+	from {transform:scale(0)} 
+	to {transform:scale(1)}
+	}
+
+
+
+/* The Close Button */
+
+
+	.close {
+		position: absolute;
+		top: 15px;
+		right: 35px;
+		color: #f1f1f1;
+		font-size: 40px;
+		font-weight: bold;
+		transition: 0.3s;
+	}
+
+	.close:hover,
+	.close:focus {
+		color: #bbb;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px){
+
+	.modal-content {
+			width: 100%;
+	}
+}
+
+/*About Polaroid img CSS*/
+
+body {margin:25px;}
+
+	div.polaroid {
+		width: 170px;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		margin-bottom: 25px;
+	}
+
+	div.container {
+		text-align: center;
+		padding: 10px 20px;
+	}
+
+
